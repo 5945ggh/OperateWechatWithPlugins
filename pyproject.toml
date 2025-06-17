@@ -1,0 +1,20 @@
+# pyproject.toml
+
+[project]
+name = "wechat_controller"
+version = "0.1.0"
+authors = [
+    { name="5945ggh", email="1282835294@qq.com" },
+]
+description = "一个轻量级、异步、插件化的Python微信机器人框架"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License", 
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "wxauto",
+    "openai", 
+]
